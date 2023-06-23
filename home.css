@@ -1,0 +1,554 @@
+@import url("https://cdn.jsdelivr.net/npm/@xz/fonts@1/serve/hk-grotesk.min.css");
+@import url("https://fonts.googleapis.com/css?family=Droid Serif");
+
+
+.header {
+  height: 11vh;
+  width: 100%;
+  padding : 0 0;
+  margin : 0 0;
+  background: #2c364F;
+}
+
+.footer {
+  height: max(11vh, 50px);
+  width: 100%;
+  padding : 0 0;
+  margin : 0 0;
+  background: #2c364F;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+  text-align : center;
+}
+
+.footer p{
+  padding : 0 0;
+  margin : 0 0;
+  font-size : max(.8vw, 11px);
+}
+
+.footerwrap {
+  word-wrap: break-word;
+  width : 25%;
+  margin : 37.5%;
+  
+}
+
+.menu {
+  display : flex;
+  align-items : top;
+  text-align : center;
+  justify-content : space-between;
+  margin : 0 0;
+  padding : 0 0;
+}
+
+.nav-menu {
+  margin : 0 0;
+  padding : 0 0;
+  
+}
+
+.nav-menu{
+  position: relative;
+  top : 3vh;
+  left : 0;
+}
+
+.nav-menu li {
+  display : inline-block;
+  margin : 0 1.5vw;
+  padding : 0 0;
+  text-align : center;
+}
+
+.nav-menu li a {
+  text-decoration : none;
+  color : #ADD8E6;
+  padding : 0 0;
+  margin : 0 0;
+  position : relative;
+  font-size : max(12px,3vh);
+  line-height : 3vh;
+  font-family : "Droid Serif";
+}
+
+.nav-menu li a::after {
+  content : '';
+  background : #ADD8E6;
+  width : 0%;
+  height : 2px;
+  position : absolute;
+  bottom : 0;
+  left : 0;
+  transition : width 0.5s;
+}
+
+.nav-menu li a:hover::after {
+  widht : 100%;
+}
+
+.logo1 {
+  height : 10vh;
+  width : 20vh;
+  padding : .5vh;
+}
+
+.zeroed {
+    margin : 0 0;
+  padding : 0 0;
+}
+
+.homequoteb {
+  margin : 0 0;
+  padding : 0 0;
+  width : 99.5%;
+  height : 100vh;
+  display : flex;
+  position : relative;
+  border-style : solid;
+  border-color : #a9a9a9;
+  border-width : .25vw;
+}
+
+.h1 {
+  width : 100%;
+  height : 19vh;
+  font-size: 12.5vh;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+  margin-top : 4vh;
+  padding : 0 0;
+  
+}
+
+.h1 h1 {
+	font-size : 12.5vh;
+	font-family : "Droid Serif";
+}
+
+.h2 {
+  width : 100%;
+  height : 16vh;
+  font-size: 9.6vh;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+  margin-top : 1vh;
+  font-family : "HK Grotesk";
+}
+
+.h4 {
+  width : 32%;
+  height : 16vh;
+  line-height : 16vh;
+  font-size: 7vh;
+  margin-top : 4vh;
+  background : #ADD8E6;
+  border-radius : 5px;
+  margin-left : 34%; 
+  font-family : "Droid Serif";
+}
+
+.h4 a {
+  text-decoration : none;
+  color : white;
+  padding : 0 0;
+  margin : 0 0;
+  position : relative;
+  font-family : "Droid Serif";
+}
+
+.h3 {
+    display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+  width : 100%;
+  height : 9.5vh;
+  font-size: 6vh;
+  margin-top : 1vh;
+  font-family : "HK Grotesk";
+}
+
+.h3 h1 {
+	font-size : 6vh;
+	font-weight : normal;
+	font-family : "HK Grotesk";
+}
+
+h3 {
+  color : #2C364F
+}
+
+.homequote {
+  width : 60%;
+  height : 100vh;
+  background : #FFFFFFD3;
+  margin : 0 20vw;
+  padding : 0 0;
+  text-align : center;
+  item-align : center;
+}
+
+.unmatched {
+  width : 99.5%;
+  background: #2c364F;
+  height : max(70vh,15vw);
+  border-style : solid;
+  border-color : #a9a9a9;
+  border-width : .25vw;
+  display: flex;
+  flex-flow: row;
+  justify-content : space-between;
+}
+
+.maxedimg img {
+  width : max(90vh,20vw);
+  height : max(50vh,13vw);
+  margin-top : max(.8vw,7vh);
+  margin-left : max(2vw,12vh);
+  border-radius : 5px;
+}
+
+.maxedimgb img {
+  width : max(90vh,20vw);
+  height : max(50vh,13vw);
+  margin-top : max(.8vw,7vh);
+  margin-right : max(2vw,12vh);
+  border-radius : 5px;
+}
+
+.unmatchtxt{
+  position :relative;
+  height : 70%;
+  width : 43%;
+  margin-top : max(2.27vw,12vh);
+  margin-right  : max(1vw,4vh);
+  border-style : solid;
+  border-color : #ADD8E6;
+  border-width : .1vw;
+  word-wrap: break-word;
+  border-radius : 5px;
+}
+
+.unmatchtxtb{
+  position :relative;
+  height : 70%;
+  width : 43%;
+  margin-top : max(2.27vw,12vh);
+  margin-left  : max(1vw,4vh);
+  border-style : solid;
+  border-color : #ADD8E6;
+  border-width : .1vw;
+  word-wrap: break-word;
+  border-radius : 5px;
+}
+
+.unmatchtxt p{
+  margin : 2% 2%;
+  word-wrap: break-word;
+    color : white;
+	font-family : "HK Grotesk";
+}
+
+.unmatchtxtb p{
+  margin : 2% 2%;
+  word-wrap: break-word;
+      color : white;
+	  font-family : "HK Grotesk";
+}
+
+.unmatchtxt h1{
+  margin : 1% 1%;
+    color : white;
+	font-family : "Droid Serif";
+}
+
+.unmatchtxtb h1{
+  margin : 1% 1%;
+  color : white;
+  font-family : "Droid Serif";
+}
+
+.h11 {
+  width : 100%;
+  height : 14vh;
+  font-size: 8vh;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+  margin-top : 6vh;
+  padding : 0 0; 
+  color : #a9a9a9;
+  font-family : "Droid Serif";
+}
+
+.h11 h1{
+	font-weight : lighter;
+}
+
+.fourinone {
+   width : 99.5%;
+  border-style : solid;
+  border-color : #a9a9a9;
+  border-width : .25vw;
+  flex-flow : column;
+  display : flex;
+  text-align : center;
+  background : #a9a9a9;
+  padding-bottom : 3.5vmax;
+  item-align : center;
+}
+
+.fourinonec {
+  item-align : center;
+  justify-content : center;
+  display : flex;
+}
+
+.fourinoneb {
+  display: flex;
+  flex-flow: row;
+  background: #2C364F;
+  border-style : solid;
+  border-color : #2C364F;
+  border-width : .25vw;
+  width : 87%;
+  margin-top : 7vh;
+  padding-left: 5%;
+  border-radius : 8px;
+}
+
+.fourinone img {
+  margin-top : 0;
+  margin-bottom : 1vw;
+  margin-left : 0;
+  padding : 0 0;
+  width : 70%;
+  height : 15vw;
+  border-radius : 5px;
+}
+
+.fourinone p {
+  margin: 0 0;
+  padding : 0 0;
+  color : white;
+  margin : 3% 2%;
+  font-family : "HK Grotesk";
+}
+
+.fourinone .flexflow {
+  display: flex;
+  flex-flow: column;
+  padding-top : 2vw;
+  padding-bottom : 2vw;
+  padding-left : 1%;
+  padding-right : 1%;
+  width : 32%;
+}
+
+.caption {
+  position: relative;
+  align-self: flex-start;
+  display: flex;
+  flex-flow: column;
+  width : 27vmax;
+}
+
+.caption2 {
+  position: relative;
+  align-self: flex-start;
+  display: flex;
+  flex-flow: column;
+  width : 27vmax;
+  margin-top: 1.5vmax;
+}
+
+.captionbox {
+  border-style : solid;
+  border-color : white;
+  border-width : .1vw;
+  width : 70%;
+  margin-bottom : 1vw;
+  Margin-left : 1vw;
+  border-radius : 5px;
+  word-wrap: break-word;
+}
+}
+
+.testbox {
+  border-style : solid;
+  border-color : white;
+  border-width : .25vw;
+}
+
+.gutterflow {
+  display : flex;
+  flex-flow : row;
+  background : #a9a9a9;
+  border-top : solid;
+  border-bottom : solid;
+  border-color : #2C364F;
+}
+
+a {
+  text-decoration : none;
+}
+
+.guttercolumn {
+  height : 42.4vw;
+  display : flex;
+  flex-flow : column;
+  width : auto;
+  background : #a9a9a9;
+  text-align : center;
+  item-align : center;
+  border : solid;
+  border-width : .44vw;
+  border-color : #2C364F;
+  padding-bottom : 2.5vw;
+  border-radius : 60px;
+}
+
+.gutterccont {
+  background : #a9a9a9;
+  height : auto;
+  display : flex;
+  flex-flow : column;
+  width : 38%;
+  text-align : center;
+  item-align : center;
+  border-left : solid;
+  border-right : solid;
+  border-width : .35vw;
+  border-color : #2C364F;
+  margin-left : .3vw;
+  margin-right : .3vw;
+  padding-left : .3vw;
+  padding-right : .3vw;
+  padding-top : .4vw;
+  
+}
+
+.guttertxt {
+  width : 100%;
+  font-size: 4.5vw;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin : auto;
+  padding : 0 0;
+  font-family : "HK Grotesk"; 
+  font-size : 2.5vw;  
+}
+
+.guttertxt2 {
+  width : 100%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin : auto;
+  padding : 0 0;
+  font-family : "HK Grotesk";
+  font-size : 1.45vmax;  
+}
+
+.guttertxt2 p {
+	Margin-left: 4%;
+	margin-right: 4%;
+}
+
+.guttertxt3 {
+  width : 60%;
+  font-size: 4vw;
+  display: flex;
+  height : 10vh;
+  justify-content: center;
+  align-content: center;
+  margin : auto;
+  padding : 0 0; 
+  background : #ADD8E6;
+  border-radius : 5px;
+  font-family : "HK Grotesk";
+}
+
+.guttertxt3 p {
+  text-decoration : none;
+  color : white;
+  padding : 0 0;
+  margin : 0 0;
+  position : relative;
+  font-family : "HK Grotesk";
+}
+
+.guttercolumnp {
+  display : flex;
+  flex-flow : column;
+  width : 31%;
+  height : auto;
+  justify-content : center;
+  align-items : center;
+  border-left : solid;
+  border-right : solid;
+  border-width : .35vw;
+  border-color : #2C364F;
+  background : #a9a9a9;
+  padding-bottom : .5vw;
+  padding-top : .5vw;
+}
+
+.guttercolumnp2 {
+  display : flex;
+  flex-flow : column;
+  width : 95%;
+  height : auto;
+  justify-content : center;
+  align-items : center;
+  border : solid;
+  border-width : .44vw;
+  border-color : #2C364F;
+  border-radius : 60px;
+}
+
+.guttercolumnimg {
+  margin-top : auto;
+  margin-bottom : auto;
+  width : 100%;
+  height : auto;
+
+}
+
+.guttercolumnimg img {
+  display: block;
+  width: 100%;
+  height: 15vw;
+}
+
+.guttercolumnd {
+  display : flex;
+  flex-flow : column;
+  width : 48.75%;
+  height : auto;
+  justify-content : center;
+  align-items : center;
+  border-left : solid;
+  border-right : solid;
+  border-width : .35vw;
+  border-color : #2C364F;
+  background : #a9a9a9;
+  padding-bottom : .5vw;
+  padding-top : .5vw;
+}
+
+.guttercolumnd img {
+  display: block;
+  width: 100%;
+  height: 24.35vw;
+}

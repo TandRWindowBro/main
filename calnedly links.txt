@@ -1,0 +1,17 @@
+<!-- Calendly link widget begin -->
+<link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+<script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
+<a href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/trwindowpros/one-time-cleaning?text_color=add8e6&primary_color=2c364f'});return false;">Book Now</a>
+<!-- Calendly link widget end -->
+
+<!-- Calendly link widget begin -->
+<link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+<script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
+<a href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/trwindowpros/quarterly?background_color=add8e6&text_color=2c364f'});return false;">Schedule time with me</a>
+<!-- Calendly link widget end -->
+
+<!-- Calendly link widget begin -->
+<link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+<script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
+<a href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/trwindowpros/month?background_color=add8e6&primary_color=2c364f'});return false;">Schedule time with me</a>
+<!-- Calendly link widget end -->

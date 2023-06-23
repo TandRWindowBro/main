@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<head>
+    
+<link rel = "stylesheet" href = "qDisplay.css">
+<script>
+function getCookie(cname) {
+  let name = cname + "=";
+  let decodedCookie = decodeURIComponent(document.cookie);
+  let ca = decodedCookie.split(';');
+  for(let i = 0; i <ca.length; i++) {
+    let c = ca[i];
+    while (c.charAt(0) == ' ') {
+      c = c.substring(1);
+    }
+    if (c.indexOf(name) == 0) {
+      return c.substring(name.length, c.length);
+    }
+  }
+  return "";
+}
+
+function round(number) {
+let x = number
+let y = eval(number % 10)
+	if (y != 0) {
+		x = eval(x - y + 9)
+	} else {
+		x = eval(x - 1)
+	}
+	x = String(x)
+	return x
+}
+
+function docWrite(variable) {
+    document.write(variable);
+}
+
+function justSendIt(header1, bod) {
+Email.send({
+    Host : "smtp.elasticemail.com",
+    Username : "trwindowpros@gmail.com",
+    Password : "E8390D8F3F561B25E044B27E5B3F56ED778D",
+    To : 'trwindowpros@gmail.com',
+    From : "trwindowpros@gmail.com",
+    Subject : header1,
+    Body : bod
+})
+}
+
+function sendIt(header1, bod) {
+	let y = String(bod)
+	let x = String(header1)
+	if (bod != "") {
+		justSendIt(x, y)
+	}
+
+}
+
+localStorage.setItem("txtValue1", getCookie("quote1"));
+localStorage.setItem("txtValue2", getCookie("cwindow"));
+localStorage.setItem("txtValue3", getCookie("quote2"));
+localStorage.setItem("txtValue4", getCookie("bod"));
+localStorage.setItem("txtValue5", getCookie("header1"));
+var	baseEst = localStorage.getItem("txtValue1");
+var	windowT = localStorage.getItem("txtValue2");
+var	baseEst2 = localStorage.getItem("txtValue3");
+var body1 = localStorage.getItem("txtValue4");
+var header1 = localStorage.getItem("txtValue5")
+var monEst = eval(baseEst2 * 3 / 4)
+var quarEst = eval(baseEst2 * 9 / 10)
+	baseEst = round(baseEst)
+	monEst = round(monEst)
+	quarEst = round(quarEst)
+	
+var innerClean = eval(windowT * 5)
+	innerClean = round(innerClean)
+	
+var screenClean = eval(windowT * 3)
+	screenClean = round(screenClean)
+	
+sendIt(header1, body1)
+
+</script>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+<script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async>
+</script>
+</head>
+
+<body class = "zeroed">
+  <div class = "quoteback" style = "background-image: url('Images/backG2.jpg') ;  background-size: cover ;  background-size: 100% 100%;">
+     <div class = "header">
+    <nav class = "menu">
+      <a href="index.html">
+        <img src="Images/logo.png" class = "logo1">
+        </a>
+      <ul class = "nav-menu">
+        <li><a href = "gutter.html">Gutter Cleaning</a></li>
+		<li><a href = "Solar.html">Solar Cleaning</a></li>
+        <li><a href = "QuoteD.html">Free Quote</a></li>
+      </ul>
+    </nav>
+  </div>
+  <div class="row">
+    <div class="column">
+      <div class="quotebox">
+      
+      <div class = "tieintop">
+        <p class = "droid">Single Service Package<br><script>docWrite(baseEst)</script>.99$</p>
+      </div>
+        <div class = "listerboxes">
+        <ul>
+          <li>Exterior window cleaning &check;</li>
+          <li>Exterior window track detailing &check;</li>
+          <li>Free hard water stain<br>removal &#x2717;</li>
+          <li>Rainblock detailing &#x2717;</li>
+		  <li>3 day rain guarantee &#x2717;</li>
+        </ul>
+        </div>
+      <a href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/trwindowpros/one-time-cleaning?background_color=636061&text_color=add8e6&primary_color=2c364f'});return false;">
+      <div class = "tiein">
+        <p class = "droid">Book Now</p>
+      </div>
+      </a>
+    </div>
+  </div>
+    <div class="column">
+    <div class="quotebox">
+      <div class = "tieintop">
+        <p class = "droid">Monthly Service Package<br><script>docWrite(monEst)</script>.99$</p>
+      </div>
+      <div class = "listerboxes">
+        <ul>
+          <li>Exterior window cleaning &check;</li>
+          <li>Exterior window track detailing &check;</li>
+          <li>Free hard water stain<br>removal &check;</li>
+          <li>Rainblock detailing &check;</li>
+		  <li>3 day rain guarantee &check;</li>
+        </ul>
+        </div>
+      <a href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/trwindowpros/month?background_color=636061&text_color=add8e6&primary_color=2c364f'});return false;">
+        <div class = "tiein">
+          <p class = "droid">Book Now</p>
+        </div>
+        </a>
+    </div>
+  </div>
+    <div class="column">
+    <div class="quotebox">
+      <div class = "tieintop">
+        <p class = "droid">Quarterly Service Package<br><script>docWrite(quarEst)</script>.99$</p>
+      </div>
+      <div class = "listerboxes">
+        <ul>
+          <li>Exterior window cleaning &check;</li>
+          <li>Exterior window track detailing &check;</li>
+          <li>Free hard water stain<br>removal &check;</li>
+          <li>Rainblock detailing &#x2717;</li>
+		  <li>3 day rain guarantee &#x2717;</li>
+        </ul>
+        </div>
+      <a href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/trwindowpros/quarterly?background_color=636061&text_color=add8e6&primary_color=2c364f'});return false;">
+        <div class = "tiein">
+          <p class = "droid">Book Now</p>
+        </div>
+        </a>
+    </div>
+  </div>
+</div>
+    
+  <div class = "row">
+  <div class = "column2">
+    <div class = "quotebox2">
+      <div class = "addSI"><img src = 'Images/actionscreen.jpg' style = "height : auto"></div>
+      <div class = "rowcont">
+        <div class = "addquote">
+          <p class = "droid">Screens for just:<br><script>docWrite(screenClean)</script>.99$</p>
+        </div>
+        <div class = "dbox3">
+          <p class = "hk"><span style="color : #2c364F; font-weight : bold;">Got dusty screens?</span> Our 4-in-1 screen cleaning process will make your screens shine!</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class = "column2">
+    <div class = "quotebox2">
+      <div class = "addSI"><img src = 'Images/indoorClean.jpg' style = "height : auto"></div>
+      <div class = "rowcont">
+        <div class = "addquote">
+          <p class = "droid">Indoor windows for:<br><script>docWrite(innerClean)</script>.99$</p>
+        </div>
+        <div class = "dbox3">
+          <p class = "hk"><span style="color : #2c364F; font-weight : bold;">Interior windows need work?</span> Get crystal clear windows and clean tracks for a perfect view.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+  <div class = "row">
+  <div class = "column2">
+    <div class = "quotebox2">
+      <div class = "addSI"><img src = 'Images/actionscreen.jpg' style = "height : auto"></div>
+      <div class = "rowcont">
+        <div class = "addquote">
+          <p class = "droid">Are your Solar panels struggling?</p>
+        </div>
+        <div class = "dbox3">
+          <p class = "hk">Our expert team removes dirt, dust, and pollutants from your panels 
+		  increasing their efficiency. Starting at just $5 a panel!</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class = "column2">
+    <div class = "quotebox2">
+      <div class = "addSI"><img src = 'Images/indoorClean.jpg' style = "height : auto"></div>
+      <div class = "rowcont">
+        <div class = "addquote">
+          <p class = "droid">Are your gutters clogged?</p>
+        </div>
+        <div class = "dbox3">
+          <p class = "hk">Our team of skilled gutter cleaning experts will clean your gutters starting 
+		  at just $1.00 per foot! </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+<footer class = "footer">
+	<div class = "footerwrap">
+	<p>Serving Salt Lake, West Jordan, Herriman, Midvale, West Valley, Taylorsville, Draper, Magna, Kearns, Riverton, Sandy, South Jordan,  Bluffdale, Highland, Lehi, Orem, and American Fork</p>
+	<p>Photos by <a href="https://www.freepik.com/free-photo/close-up-hand-with-rubber-glove-cleaning-window_7945369.htm#query=window%20cleaning&position=1&from_view=keyword&track=ais">Freepik</a></p>
+	</div>
+</footer>
+</body>
