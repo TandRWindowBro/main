@@ -343,3 +343,309 @@ footer {
 .droid {
 	font-family : "Droid Serif";
 }
+
+
+@media only screen and (max-width: 800px) {
+
+.header {
+  height: 11vmin;
+  width: 100%;
+  padding : 0 0;
+  margin : 0 0;
+  background: #2c364F;
+}
+
+.footer {
+  height: auto;
+  width: 100%;
+  padding : 0 0;
+  margin : 0 0;
+  background: #2c364F;
+  text-align : center;
+}
+
+.footer p{
+  padding : 0 0;
+  margin : 0 0;
+  font-size : max(.8vmin, 11px);
+}
+
+.footerwrap {
+  word-wrap: break-word;
+  width : 80%;
+  margin : 10%;
+  
+}
+
+.menu {
+  display : flex;
+  align-items : top;
+  text-align : center;
+  justify-content : space-between;
+  margin : 0 0;
+  padding : 0 0;
+}
+
+.nav-menu {
+  margin : 0 0;
+  padding : 0 0;
+  
+}
+
+.nav-menu{
+  position: relative;
+  top : 1vmin;
+  left : 0;
+}
+
+.nav-menu li {
+  display : inline-block;
+  margin : 0 .5vmin;
+  padding : 0 0;
+  text-align : center;
+}
+
+.nav-menu li a {
+  text-decoration : none;
+  color : #ADD8E6;
+  padding : 0 0;
+  margin : 0 0;
+  position : relative;
+  font-size : max(3.4px,2vmin);
+  line-height : 3vmin;
+  font-family : "Droid Serif";
+}
+
+.logo1 {
+  height : 10vmin;
+  width : 20vmin;
+  padding : .5vmin;
+}
+	
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+  padding : 0 0;
+  margin : 0 0;
+}
+
+.column {
+  float: center;
+  width: 100%;
+  padding: 1vh;
+  margin : 0 0;
+  height : auto;
+  display : flex;
+  position : relative;
+}
+
+.column2 {
+  float: left;
+  width: 87%;
+  padding: 10px;
+  padding-top : 30px;
+  margin : 0 0;
+  height : auto;
+  display : flex;
+  position : relative;
+  margin-left : 7%;
+}
+
+body {
+  padding : 0 0;
+  height : 100%;
+}
+
+footer {
+	margin : 0 0;
+	padding : 0 0;
+}
+
+.quoteback {
+  padding : 0 0;
+  margin : 0 0;
+  margin-bottom : -11vh;
+  min-height : 100%;
+}
+
+.quoteback:after {
+  content: "";
+  display: block;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.quotebox {
+  background : #FFFFFFFF;
+  width : 75%;
+  height : 70vh;
+  display : flex;
+  position : relative;
+  margin : auto;
+  border-style : solid;
+  border-color : #ADD8E6;
+  border-width : 3px;
+  border-radius : 10px;
+  flex-flow : column;  
+}
+
+.quotebox2 {
+  background : #FFFFFFFF;
+  width : 87%;
+  height : auto;
+  display : flex;
+  position : relative;
+  margin : auto;
+  padding : 1.3vh 1vh;
+  border-style : solid;
+  border-color : #ADD8E6;
+  border-width : 3px;
+  border-radius : 15px;
+  flex-flow : column;  
+}
+
+.tiein {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 9vh;
+  border-color: white;
+  border-style: solid;
+  border-radius: 0 0 calc(1rem - 9px) calc(1rem - 9px);
+  border-width: 3;
+  background : #807C7D;
+  text-align : center;
+}
+
+.tiein p{
+  padding : 0 0;
+  margin-top : 1.5vmin;
+  margin-left : max(6px, .5vmin);
+  margin-right : max(6px, .5vmin);
+  font-size : max(10px, 3.8vmin);
+  line-height : max(4vh,2.1vmin);
+  font-weight : bold;
+  text-decoration : none;
+  color : #ADD8E6;
+  font-family : "Droid Serif";
+}
+
+.tieintop {
+  position: relative;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 12vh;
+  border-color: #ADD8E6;
+  border-style: solid;
+  border-radius: calc(1rem - 9px) calc(1rem - 9px) 0 0;
+  border-width: 3px;
+  background : #ADD8E6;
+  text-align : center;
+}
+
+.tieintop p{
+  padding : 0 0;
+  margin-top : 1vmin;
+  margin-left : max(6px, .5vmin);
+  margin-right : max(6px, .5vmin);
+  font-size : max(10px, 2.9vmin);
+  line-height : max(4vh,2vmin);
+  font-weight : bold;
+  font-family : "Droid Serif";
+}
+
+.listerboxes {
+  height : auto;
+  width : 100%;
+}
+
+.listerboxes li {
+  margin-right : auto;
+  font-size : max(10px, 2.6vmin);
+  line-height : max(4vh,2vmin);
+  font-family : "HK Grotesk";
+}
+
+.listerboxes ul {
+  list-style-type: square;
+  height : 37vh;
+  display: flex;
+  flex-direction : column;
+  justify-content : space-between;
+  align-content : flex-start
+}
+
+.rowcont {
+  display : flex;
+  flex-flow : column;
+  width : 100%;
+}
+
+.addquote {
+  width : 95%;
+  height : auto;
+  margin : auto;
+  position : relative;
+  text-align : center;
+  margin-bottom : 2vmin;
+  
+}
+
+.addSI img{
+  max-height : 18vh;
+  width : 95%;
+  margin : 2.5%;
+  border-radius : 6px;
+}
+
+.addSI {
+  width : 100%;
+}
+
+.dbox3 {
+  width : 95%;
+  height : auto;
+  display : flex;
+  position : relative;
+  margin : auto;
+  border-style : solid;
+  border-color : #2c364F;
+  border-width : 2px;
+  border-radius : 8px;
+  word-wrap: break-word;
+  text-align : center;
+  font-size : max(9px, 2.3vmin);
+  line-height : max(9px, 2.3vmin);
+  padding : 2px 1px;
+}
+
+.dbox3 p{
+  padding : 0 0;
+  margin : auto;
+  margin-left : max(6px, .5vmin);
+  margin-right : max(6px, .5vmin);
+}
+
+.addquote p{
+  padding : 0 0;
+  margin : auto;
+  margin-left : max(6px, .5vmin);
+  margin-right : max(6px, .5vmin);
+  font-size : max(8px, 3vmin);
+  line-height : max(7px,3vmin);
+  font-weight : bold;
+}
+
+.hk {
+	font-family : "HK Grotesk";
+}
+
+.droid {
+	font-family : "Droid Serif";
+}
+}
