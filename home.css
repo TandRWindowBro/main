@@ -601,13 +601,13 @@ a {
 
 .nav-menu{
   position: relative;
-  top : 3vmin;
+  top : 1vmin;
   left : 0;
 }
 
 .nav-menu li {
   display : inline-block;
-  margin : 0 1.5vmin;
+  margin : 0 .5vmin;
   padding : 0 0;
   text-align : center;
 }
@@ -618,7 +618,7 @@ a {
   padding : 0 0;
   margin : 0 0;
   position : relative;
-  font-size : max(12px,3vmin);
+  font-size : max(3.4px,2vmin);
   line-height : 3vmin;
   font-family : "Droid Serif";
 }
@@ -913,7 +913,8 @@ a {
   border-color : #2C364F;
   margin-right : .3vw;
   padding-top : .4vw;
-  
+  padding-right : 0;
+  padding-left : 0;
 }
 
 .guttertxt {
@@ -952,5 +953,18 @@ a {
   background : #a9a9a9;
   padding-bottom : .5vw;
   padding-top : .5vw;
+}
+.guttertxt3 {
+  width : 60%;
+  font-size: 4vw;
+  display: flex;
+  height : auto;
+  justify-content: center;
+  align-content: center;
+  margin : auto;
+  padding : 0 0; 
+  background : #ADD8E6;
+  border-radius : 5px;
+  font-family : "HK Grotesk";
 }
 }
