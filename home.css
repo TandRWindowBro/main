@@ -937,4 +937,20 @@ a {
   font-family : "HK Grotesk";
   font-size : 2vmax;  
 }
+.guttercolumnp {
+  display : flex;
+  flex-flow : column;
+  width : 80%;
+  margin-left : 10%;
+  height : auto;
+  justify-content : center;
+  align-items : center;
+  border-left : solid;
+  border-right : solid;
+  border-width : .35vw;
+  border-color : #2C364F;
+  background : #a9a9a9;
+  padding-bottom : .5vw;
+  padding-top : .5vw;
+}
 }
