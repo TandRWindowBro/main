@@ -554,7 +554,12 @@ a {
 }
 
 @media only screen and (max-width: 800px) {
-	
+  .guttercolumnimg img {
+  display: block;
+  width: 100%;
+  height: 25vmax;
+}
+
   .fourinone img {
   margin-top : 0;
   margin-bottom : 1vw;
