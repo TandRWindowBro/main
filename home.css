@@ -665,7 +665,7 @@ a {
 .h1 {
   width : 100%;
   height : auto;
-  font-size: 12.5vmin;
+  font-size: 10.5vmin;
   display: flex;
   justify-content: center;
   align-content: center;
@@ -676,14 +676,14 @@ a {
 }
 
 .h1 h1 {
-font-size : 12.5vmin;
+font-size : 10.5vmin;
 font-family : "Droid Serif";
 }
 
 .h2 {
   width : 100%;
   height : auto;
-  font-size: 9.6vmin;
+  font-size: 8.6vmin;
   display: flex;
   justify-content: center;
   align-content: center;
@@ -695,8 +695,8 @@ font-family : "Droid Serif";
 .h4 {
   width : 32%;
   height : auto;
-  line-height : 7vmin;
-  font-size: 7vmin;
+  line-height : 6vmin;
+  font-size: 6vmin;
   margin-top : 1vmin;
   margin-bottom : 1vmin;
   background : #ADD8E6;
@@ -722,13 +722,13 @@ font-family : "Droid Serif";
   flex-direction: column;
   width : 100%;
   height : auto;
-  font-size: 6vmin;
+  font-size: 5vmin;
   margin-top : 1vmin;
   font-family : "HK Grotesk";
 }
 
 .h3 h1 {
-	font-size : 6vmin;
+	font-size : 5vmin;
 	font-weight : normal;
 	font-family : "HK Grotesk";
 }
