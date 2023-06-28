@@ -553,7 +553,7 @@ a {
   height: 24.35vw;
 }
 
-@media only screen and (max-width: 800px) {
+@media all and (max-width: 800px) {
   .guttercolumnimg img {
   display: block;
   width: 100%;
